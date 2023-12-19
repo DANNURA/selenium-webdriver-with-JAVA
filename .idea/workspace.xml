@@ -5,8 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee8cc3d-f4a9-49f2-a12d-c580ad6de620" name="Changes" comment="updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wait/waitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WysiwygEditorPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/AlertsTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/frames/FrameTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,26 +82,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.AlertsTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AlertsTests.testAcceptAlert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AlertsTests.testGetTextFromAlert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AlertsTests.testSetInputInAlert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FileUploadTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FrameTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FrameTests.testWysiwyg.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HoverTests.testHoverUser1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KeysTests.testBackspace.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KeysTests.testPi.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/charl/IdeaProjects/practices2/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AlertsTests.executor": "Run",
+    "TestNG.AlertsTests.testAcceptAlert.executor": "Run",
+    "TestNG.AlertsTests.testGetTextFromAlert.executor": "Run",
+    "TestNG.AlertsTests.testSetInputInAlert.executor": "Run",
+    "TestNG.FileUploadTests.executor": "Run",
+    "TestNG.FrameTests.executor": "Run",
+    "TestNG.FrameTests.testWysiwyg.executor": "Run",
+    "TestNG.HoverTests.testHoverUser1.executor": "Run",
+    "TestNG.KeysTests.testBackspace.executor": "Run",
+    "TestNG.KeysTests.testPi.executor": "Run",
+    "TestNG.waitTests.testWaitUntilHidden.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/charl/IdeaProjects/practices2/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pages" />
@@ -83,7 +111,7 @@
       <recent name="C:\Users\charl\IdeaProjects\practices2\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertsTests">
+  <component name="RunManager" selected="TestNG.waitTests.testWaitUntilHidden">
     <configuration name="AlertsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="practices2" />
       <extension name="coverage">
@@ -95,24 +123,6 @@
       <option name="PACKAGE_NAME" value="alerts" />
       <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTests.testSetInputInAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="practices2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="METHOD_NAME" value="testSetInputInAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -171,13 +181,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="waitTests.testWaitUntilHidden" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="practices2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.waitTests" />
+      <option name="METHOD_NAME" value="testWaitUntilHidden" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AlertsTests" />
-        <item itemvalue="TestNG.FrameTests.testWysiwyg" />
+        <item itemvalue="TestNG.waitTests.testWaitUntilHidden" />
         <item itemvalue="TestNG.FrameTests" />
+        <item itemvalue="TestNG.FrameTests.testWysiwyg" />
+        <item itemvalue="TestNG.AlertsTests" />
         <item itemvalue="TestNG.FileUploadTests" />
-        <item itemvalue="TestNG.AlertsTests.testSetInputInAlert" />
       </list>
     </recent_temporary>
   </component>
