@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee8cc3d-f4a9-49f2-a12d-c580ad6de620" name="Changes" comment="updated" />
+    <list default="true" id="9ee8cc3d-f4a9-49f2-a12d-c580ad6de620" name="Changes" comment="updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +40,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -63,7 +69,7 @@
     &quot;TestNG.HoverTests.testHoverUser1.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.KeysTests.testBackspace.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.KeysTests.testPi.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/charl/IdeaProjects/practices2/resources&quot;
@@ -77,7 +83,7 @@
       <recent name="C:\Users\charl\IdeaProjects\practices2\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FrameTests.testWysiwyg">
+  <component name="RunManager" selected="TestNG.AlertsTests">
     <configuration name="AlertsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="practices2" />
       <extension name="coverage">
@@ -167,10 +173,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertsTests" />
         <item itemvalue="TestNG.FrameTests.testWysiwyg" />
         <item itemvalue="TestNG.FrameTests" />
         <item itemvalue="TestNG.FileUploadTests" />
-        <item itemvalue="TestNG.AlertsTests" />
         <item itemvalue="TestNG.AlertsTests.testSetInputInAlert" />
       </list>
     </recent_temporary>
